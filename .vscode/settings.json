@@ -1,27 +1,34 @@
 {
-  "eslint.workingDirectories": [
-    {
-      "mode": "auto"
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#8456bc",
+        "activityBar.background": "#8456bc",
+        "activityBar.foreground": "#e7e7e7",
+        "activityBar.inactiveForeground": "#e7e7e799",
+        "activityBarBadge.background": "#c99b76",
+        "activityBarBadge.foreground": "#15202b",
+        "commandCenter.border": "#e7e7e799",
+        "sash.hoverBorder": "#8456bc",
+        "statusBar.background": "#6b3fa0",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#8456bc",
+        "statusBarItem.remoteBackground": "#6b3fa0",
+        "statusBarItem.remoteForeground": "#e7e7e7",
+        "titleBar.activeBackground": "#6b3fa0",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#6b3fa099",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.color": "#6b3fa0",
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
     }
-  ],
-  "workbench.colorCustomizations": {
-    "activityBar.activeBackground": "#8456bc",
-    "activityBar.background": "#8456bc",
-    "activityBar.foreground": "#e7e7e7",
-    "activityBar.inactiveForeground": "#e7e7e799",
-    "activityBarBadge.background": "#c99b76",
-    "activityBarBadge.foreground": "#15202b",
-    "commandCenter.border": "#e7e7e799",
-    "sash.hoverBorder": "#8456bc",
-    "statusBar.background": "#6b3fa0",
-    "statusBar.foreground": "#e7e7e7",
-    "statusBarItem.hoverBackground": "#8456bc",
-    "statusBarItem.remoteBackground": "#6b3fa0",
-    "statusBarItem.remoteForeground": "#e7e7e7",
-    "titleBar.activeBackground": "#6b3fa0",
-    "titleBar.activeForeground": "#e7e7e7",
-    "titleBar.inactiveBackground": "#6b3fa099",
-    "titleBar.inactiveForeground": "#e7e7e799"
-  },
-  "peacock.color": "#6b3fa0"
-}
+  }
+  
