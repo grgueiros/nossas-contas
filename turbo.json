@@ -4,6 +4,7 @@
   "pipeline": {
     "build": {
       "dependsOn": ["^build"],
+      "env": ["GOOGLE_CLIENT_ID", "GOOGLE_CLIENT_SECRET"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
     "lint": {

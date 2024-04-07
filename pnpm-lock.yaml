@@ -100,7 +100,14 @@ importers:
         specifier: ^5.3.3
         version: 5.3.3
 
-  packages/tailwind-config: {}
+  packages/tailwind-config:
+    devDependencies:
+      tailwindcss:
+        specifier: ^3.3.0
+        version: 3.4.3
+      tailwindcss-animate:
+        specifier: ^1.0.7
+        version: 1.0.7(tailwindcss@3.4.3)
 
   packages/typescript-config: {}
 
@@ -4921,7 +4928,6 @@ packages:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
       tailwindcss: 3.4.3
-    dev: false
 
   /tailwindcss@3.4.3:
     resolution: {integrity: sha512-U7sxQk/n397Bmx4JHbJx/iSOOv5G+II3f1kpLpY2QeUv5DcPdcTsYLlusZfq1NthHS1c1cZoyFmmkex1rzke0A==}
